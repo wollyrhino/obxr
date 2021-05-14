@@ -1,0 +1,4 @@
+bootstrap
+vue-min.js
+vue-router
+axios
