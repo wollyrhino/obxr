@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div @load="getCars">
+            <tbody>
+                <tr v-for="(car, index) in cars" :key="car.car_id">
+                    <td>{{ index + 1 }}</td>
+                    <td>{{ car.car_name }}</td>
+                    <td>{{ car.make }}</td>
+                    <td>{{ car.model }}</td>
+                    <td>
+                        <v-btn color="info" depressed small @click="getEdit(car)">
+                            Edit
+                        </v-btn>
+                        <v-btn color="error" depressed small @click="getDelete(car)">
+                            Delete
+                        </v-btn>
+                    </td>
+                </tr>
+            </tbody>
+
+        </div>
+
+    </div>
+
+
+    <script src="dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script src="dist/axios.min.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/car_list_methods.js"></script>
+
+</body>
+</html>
