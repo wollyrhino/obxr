@@ -10,7 +10,7 @@ var Home = {
 	<li> Low or No Credit? We can help.</li><br>
 	<li>Your spouse, relative or friend frequently drives your primary vehicle and you need an affordable option to star your side gig.</li><br>
 	<li>You don't have a credit card and need and affordable option for a short-term car rental.</li><br>
-	<li>You need to rent a car for 12 hours our less.</li><br>
+	<li>You need to rent a car for 12 hours or less.</li><br>
 	<li>You own a local small business and need an extra car for deliveries or errands a couple of days each month. </li><br>
 	<li>You want to drive for Postmates, Amazon Flex, Roadie, Burro, InstaCart, EatStreet, GrubHub, UberEats, or DoorDash.<br> [Uber, Lyft coming soon]
 	but dont't have a car or want to use your primary vehicle</li>
