@@ -21,6 +21,7 @@
 			<router-link id="nav_link" tag="button" to="/"> Home</router-link>
 			 <router-link id="nav_link" tag="button" class="nav-link" to="about"> About</router-link> 
 			 <router-link id="nav_link" tag="button" class="nav-link" to="rentalform">Drive</router-link> 
+			 <router-link id="nav_link" tag="button" class="nav-link" to="ride">Ride</router-link>
 			 <router-link id="nav_link" tag="button" class="nav-link" to="contact">Contact</router-link> 
 	   
 	  </div>
@@ -36,10 +37,11 @@
 <script src="pages/about.vue.js"></script>
 <script src="pages/contact.vue.js"></script>
 <script src="pages/rentalform.js"></script>
+<script src="pages/ride.js"></script>
 
 	<script src="dist/vue.min.js"></script>
 	<script src="dist/vue-router.js"></script>
-
+    <script src="dist/formulate.min.js"></script>
 	<script src="dist/axios.min.js"></script>
 
 <!-- Vue Instance and Routes -->
@@ -49,6 +51,7 @@ var routes = [
   { path: '/about', component: About },
   { path: '/rentalform', component: Rentalform },
   { path: '/contact', component: Contact },
+  { path: '/ride', component: Ride },
   
 ];
 
