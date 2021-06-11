@@ -16,7 +16,7 @@ var Ride = {
 	
 
 	</ul>
-	<img width="600" src="images/scooter_fleet_flier_01-tiny.jpg">
+	<img width="600" src="/images/scooter_fleet_flier_01-tiny.jpg">
 	</div>
 	
 	
